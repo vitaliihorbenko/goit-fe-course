@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: "Playfair Display", "serif";
+  font-family: "Playfair Display", serif;
   color: #626262;
   font-size: 14px;
+  line-height: 24px;
 }
 
 .wrapper {
@@ -60,6 +61,7 @@ img {
 .row {
   display: block;
   text-align: center;
+  margin-bottom: 130px;
 }
 .left-post {
   max-width: 421px;
@@ -96,4 +98,7 @@ p.title {
   font-size: 20px;
   border: 1px solid #626262;
   cursor: pointer;
+  background-color: #ffffff;
+  font-family: inherit;
+  color: #626262;
 }
