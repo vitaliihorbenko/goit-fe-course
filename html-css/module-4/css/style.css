@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.header {
+    margin-bottom: 38px;
+}
+.site-logo {
+    display: inline-block;
+    /* float: left; */
+}
+.site-logo a {
+    font-size: 30px;
+    line-height: 32px;
+}
+.main-nav {
+    margin: 0;
+    padding: 38px 0;
+}
+.main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main-menu {
+    float: right;
+    width: 477px;
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-menu-item {
+    float: left;
+    list-style-type: none;
+}
+.main-menu-item:not(:last-child) {
+    margin-right: 32px;
+}
+li.featured-list-item,
+li.blog-list-item {
+    list-style-type: none;
+}
+h2.featured-title,
+h2.blog-title {
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #515151;
+}
+.featured-list-item {
+    float: left;
+    max-width: 255px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.featured-list-item:nth-child(4n) {
+    margin-right: 0;
+}
+div.product {
+    background-color: #323232;
+    float: left;
+    width: 200px;
+    height: 40px;
+}
+h3.product {
+    /* float: left; */
+    font-size: 18px;
+    color: #ffffff;
+    /* padding: 9px 78px 9px 14px; */
+    text-transform: uppercase;
+}
+div.price {
+    background-color: #8c8c8c;
+    float: left;
+    width: 55px;
+    height: 40px;
+}
+p.price {
+    /* float: left; */
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    padding: 9px 11px 9px 12px;
+}
+p.price::before {
+    content: '\0024';
+}
+.blog-list-item {
+    max-width: 350px;
+    margin-right: 30px;
+    padding: 0;
+    float: left;
+}
+.blog-list-item:last-child {
+    margin-right: 0;
+}
+
