@@ -87,11 +87,13 @@ img {
   justify-content: space-between;
 }
 .button-left {
-  background-image: url(../img/icons/left.png);
-  background-repeat: no-repeat;
   width: 105px;
   height: 105px;
   background-color: #509d8b;
+  background-image: url(../img/icons/left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.651;
 }
 .button-right {
   background-image: url(../img/icons/right.png);
@@ -99,6 +101,13 @@ img {
   width: 105px;
   height: 105px;
   background-color: #509d8b;
+  background-position: center;
+  opacity: 0.651;
+}
+.button-left:hover,
+.button-right:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 .slider-content h3 {
   font-size: 60px;
@@ -152,6 +161,18 @@ div.product {
   position: absolute;
   bottom: 0;
 }
+.featured-list-item:hover .card {
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.549);
+  position: absolute;
+  width: 255px;
+  height: 282px;
+}
+.featured-list-item:hover .buttons {
+  display: block;
+}
 .featured-list-item:hover .product {
   background-color: #1abc9c;
 }
@@ -179,6 +200,91 @@ p.price {
 }
 p.price::before {
   content: "\0024";
+}
+.buttons {
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 172px;
+}
+
+.like {
+  background-image: url(../img/icons/like.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-right: 7px;
+}
+.like:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+  border-color: #1abc9c;
+}
+.arrows {
+  background-image: url(../img/icons/arrows.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-right: 7px;
+}
+.arrows:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+  border-color: #1abc9c;
+}
+.clock {
+  background-image: url(../img/icons/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-bottom: 7px;
+}
+.clock:hover {
+  background-color: #1abc9c;
+  cursor: pointer;
+  border-color: #1abc9c;
+}
+
+.cart {
+  width: 100%;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 15px 20px 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart:before {
+  content: "";
+  background-image: url(../img/icons/cart.png);
+  background-size: 29px 29px;
+  background-repeat: no-repeat;
+  top: 13px;
+  left: 10px;
+  width: 29px;
+  height: 29px;
+  position: absolute;
+}
+
+.cart:hover {
+  background-color: #323232;
 }
 footer {
   font-size: 16px;
