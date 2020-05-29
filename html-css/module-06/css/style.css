@@ -124,19 +124,19 @@ h2:after {
   left: 20px;
 }
 #web:before {
-  content: url(../img/icons/LINE\GRAPH.png);
+  content: url(../img/icons/LINE-GRAPH.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #creativity:before {
-  content: url(../img/icons/COMPUTER\_\OK.png);
+  content: url(../img/icons/COMPUTER-OK.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #seo:before {
-  content: url(../img/icons/BOOK\2png);
+  content: url(../img/icons/BOOK-2png);
   position: absolute;
   top: 0;
   left: 20px;
