@@ -117,38 +117,38 @@ h2:after {
 }
 
 #photography:before {
-  content: url(../img/icons/ALARM.png);
+  content: url(../img/icons/alarm.png);
   display: inline-block;
   position: absolute;
   top: 0;
   left: 20px;
 }
 #web:before {
-  content: url(../img/icons/LINE-GRAPH.png);
+  content: url(../img/icons/line-graph.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #creativity:before {
-  content: url(../img/icons/COMPUTER-OK.png);
+  content: url(../img/icons/computer.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #seo:before {
-  content: url(../img/icons/BOOK-2png);
+  content: url(../img/icons/book.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #css:before {
-  content: url(../img/icons/HOME.png);
+  content: url(../img/icons/home.png);
   position: absolute;
   top: 0;
   left: 20px;
 }
 #digital:before {
-  content: url(../img/icons/IMAGE.png);
+  content: url(../img/icons/image.png);
   position: absolute;
   top: 0;
   left: 20px;
