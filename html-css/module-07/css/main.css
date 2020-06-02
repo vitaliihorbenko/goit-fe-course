@@ -62,6 +62,7 @@
 .text {
   text-align: center;
   font-size: 14px;
+  line-height: 24px;
   color: #777777;
   font-family: "Roboto Slab";
   font-style: normal;
@@ -179,6 +180,11 @@
   background: #fed136;
   border-radius: 3px;
   border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.button:hover {
+    cursor: pointer;
 }
 input:valid,
 textarea:valid {
