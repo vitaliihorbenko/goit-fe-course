@@ -162,12 +162,15 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
 }
 
 .form-input {
   margin-bottom: 30px;
   width: 100%;
   padding: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 .button {
@@ -194,7 +197,4 @@ input:invalid,
 textarea:invalid {
   outline-color: red;
 }
-.footer {
-  padding: 10px;
-  background-color: #222222;
-}
+
