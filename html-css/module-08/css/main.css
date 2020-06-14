@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -15,7 +15,7 @@ a {
 }
 .text {
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #666666;
 }
@@ -42,24 +42,24 @@ a {
 }
 .auth {
   display: flex;
+  margin-bottom: 126px;
 }
 .auth-item {
   list-style: none;
-  margin-bottom: 126px;
 }
 .auth-link {
   color: var(--main-color);
   border: 2px solid transparent;
   border-radius: 25px;
   padding: 10px 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   transition: all 0.2s linear;
 }
 .auth-link:hover,
 .auth-link:focus {
-border-color: #fff;
+  border-color: #fff;
 }
 .section-title {
   color: var(--main-color);
@@ -79,7 +79,7 @@ border-color: #fff;
   color: var(--main-color);
   font-size: 18px;
   margin-bottom: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 0 50px 18px;
 }
@@ -150,6 +150,7 @@ border-color: #fff;
 .button-other {
   border: 2px solid #ff4e50;
   background-color: #fff;
+  color: #ff4e50;
   padding: 12px 70px;
   border-radius: 20px;
   margin: 28px 0 58px 0;
@@ -161,4 +162,71 @@ border-color: #fff;
 .button-other:focus {
   background-color: #ff4e50;
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .site-header {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100%;
+    padding-top: 50px;
+    z-index: 5;
+  }
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 670px;
+  }
+  .auth {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .section-title {
+    font-size: 52px;
+  }
+  .banner {
+    background-image: url(../img/first-screen-tablet.jpg.png);
+    position: relative;
+  }
+  .banner::after {
+    content: '';
+    background-color: rgb(26, 25, 21);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 768px;
+    height: 100%;
+    z-index: -2;
+  }
+  .banner-text {
+    font-size: 24px;
+  }
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .find-partner {
+    padding: 11px 20px;
+  }
+  .button-other {
+    padding: 12px 30px;
+  }
+}
+
+.Rectangle_1 {
+  background-color: rgb(26, 25, 21);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 700px;
+  z-index: 41;
 }
