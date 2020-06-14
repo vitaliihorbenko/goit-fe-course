@@ -68,10 +68,12 @@ a {
   margin-bottom: 16px;
 }
 .banner {
+  margin: 0 auto;
   background-image: url(../img/first-screen-mobile.jpg);
-  width: 100%;
+  width: 320px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 540px;
   margin-bottom: 68px;
 }
@@ -167,7 +169,6 @@ a {
 @media (min-width: 768px) {
   .container {
     width: 768px;
-    margin: 0 auto;
   }
   .site-header {
     position: absolute;
@@ -194,6 +195,8 @@ a {
   .banner {
     background-image: url(../img/first-screen-tablet.jpg.png);
     position: relative;
+    width: 768px;
+    height: 700px;
   }
   .banner::after {
     content: '';
@@ -201,17 +204,23 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 768px;
+    width: 100%;
     height: 100%;
     z-index: -2;
   }
   .banner-text {
     font-size: 24px;
   }
+  .partners {
+    max-width: 492px;
+  }
   .partners-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+  }
+  .partners-list-item {
+    margin: 0;
   }
   .find-partner {
     padding: 11px 20px;
@@ -219,14 +228,37 @@ a {
   .button-other {
     padding: 12px 30px;
   }
+  .one {
+    order: 1;
+  }
+  .two {
+    order: 3;
+  }
+  .three {
+    order: 2;
+  }
+  .four {
+    order: 4;
+  }
 }
 
-.Rectangle_1 {
-  background-color: rgb(26, 25, 21);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1440px;
-  height: 700px;
-  z-index: 41;
+@media (min-width: 940px) {
+  .container {
+    width: 940px;
+  }
+  .banner {
+    background-image: url(../img/first-screen-desktop.png);
+    position: relative;
+    height: 700px;
+    width: 100%;
+  }
+  .partners-list {
+    display: flex;
+  }
+    .partners-list-item {
+    margin: 0;
+  }
+  .partners {
+    max-width: 100%;
+  }
 }
