@@ -70,12 +70,9 @@ a {
 .banner {
   margin: 0 auto;
   background-image: url(../img/first-screen-mobile.jpg);
-  width: 320px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 540px;
-  margin-bottom: 68px;
 }
 .banner-text {
   color: var(--main-color);
@@ -93,6 +90,7 @@ a {
   border-radius: 20px;
   font-size: 14px;
   cursor: pointer;
+  margin-bottom: 138px;
 }
 .section-description {
   padding-top: 227px;
@@ -100,6 +98,7 @@ a {
 }
 .partners {
   text-align: center;
+  padding-top: 68px;
 }
 .partners-title {
   font-size: 22px;
@@ -197,11 +196,9 @@ a {
   .banner {
     background-image: url(../img/first-screen-tablet.jpg.png);
     position: relative;
-    width: 768px;
-    height: 700px;
   }
   .banner::after {
-    content: '';
+    content: "";
     background-color: rgb(26, 25, 21);
     position: absolute;
     top: 0;
@@ -227,6 +224,7 @@ a {
   }
   .find-partner {
     padding: 11px 20px;
+    margin-bottom: 234px;
   }
   .button-other {
     padding: 12px 30px;
@@ -252,13 +250,11 @@ a {
   .banner {
     background-image: url(../img/first-screen-desktop.png);
     position: relative;
-    height: 700px;
-    width: 100%;
   }
   .partners-list {
     display: flex;
   }
-    .partners-list-item {
+  .partners-list-item {
     margin: 0;
   }
   .partners {
