@@ -174,9 +174,6 @@ max-width: 940px;
 }
 
 @media (min-width: 768px) {
-  .container {
-    /* width: 768px; */
-  }
   .site-header {
     position: absolute;
     left: 50%;
@@ -217,14 +214,7 @@ max-width: 940px;
     font-size: 24px;
     margin-bottom: 35px;
   }
-  .partners {
-    /* max-width: 492px; */
-  }
-  /* .partners-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  } */
+
   .partners-list-item {
     margin: 0;
   }
