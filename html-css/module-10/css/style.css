@@ -30,7 +30,7 @@
   font-weight: 700;
 }
 
-.header__main-menu {
+.main-menu {
   display: flex;
   width: 620px;
   justify-content: space-between;
