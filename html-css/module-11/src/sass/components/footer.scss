@@ -1,0 +1,63 @@
+.footer__information {
+  display: flex;
+  justify-content: space-between;
+  min-height: 63px;
+  align-items: center;
+  margin-top: 84px;
+  border-top: 1px solid $footer-inf-color;
+}
+
+.footer a {
+  text-decoration: none;
+  color: $primary-red-color;
+}
+
+.footer__copywrite {
+  font-family: $main-font-stack;
+  font-size: 14px;
+}
+
+.footer__subscribe {
+  display: flex;
+  text-align: start;
+}
+
+form {
+  display: flex;
+}
+
+button[type='submit'] {
+  background: $bg-btn-color;
+  text-transform: uppercase;
+  font-family: $main-font-stack;
+  color: $white-color;
+  font-weight: 600;
+  padding: 12px 33px;
+  font-size: 14px;
+  line-height: 1.2;
+  border: none;
+  transition: $hover-animation;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: $primary-red-color;
+  }
+}
+
+input[type='email'] {
+  width: 230px;
+  height: 40px;
+  padding-left: 12px;
+  color: $input-placeholder-color;
+  font-family: $main-font-text;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  border: 1px solid $input-border-color;
+
+  &::placeholder {
+    color: $input-placeholder-color;
+  }
+}

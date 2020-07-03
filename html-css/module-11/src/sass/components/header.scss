@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header__main-nav {
+  display: flex;
+  justify-content: space-between;
+  min-height: 55px;
+  align-items: flex-end;
+}
+
+.header__logo {
+  text-decoration: none;
+  color: $white-color;
+  font-size: 30px;
+  line-height: auto;
+  font-weight: 700;
+}
+
