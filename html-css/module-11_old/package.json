@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://luxplanjay.github.io/gulp-starter-kit",
+  "homepage": "https://vitalii-horbenko.github.io/goit-fe-course/html-css/module-11/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/Vitalii-Horbenko/goit-fe-course.git"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Vitalii Horbenko <snaketsanders5@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
+    "url": "https://github.com/Vitalii-Horbenko/goit-fe-course/tree/master/html-css/module-11"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
