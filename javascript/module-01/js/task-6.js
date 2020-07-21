@@ -14,5 +14,5 @@ do {
   total += input;
 } while (true);
 
-console.log(`Общая сумма ${total}`);
-alert(`Общая сумма ${total}`);
+console.log(`Общая сумма чисел равна ${total}`);
+alert(`Общая сумма чисел равна ${total}`);
