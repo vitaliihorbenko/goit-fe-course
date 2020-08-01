@@ -10,12 +10,6 @@ const isLoginValid = function (login) {
 };
 
 const isLoginUnique = function (allLogins, login) {
-  //   for (let log of allLogins) {
-  //       if (log=== login) {
-  //           return true;
-  //       }
-  //       return false;
-  //   }
 
   return allLogins.includes(login);
 };
