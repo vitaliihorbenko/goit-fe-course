@@ -1,5 +1,3 @@
-"use strict";
-
 const account = {
   owner: "Mango",
   balance: 24000,
