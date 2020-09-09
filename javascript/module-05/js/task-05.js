@@ -17,27 +17,34 @@ class Car {
     return this._price;
   }
   set price(value) {
-    return (this._price = value);
+    this._price = value;
   }
 
   turnOn() {
-    return (this.isOn = true);
+    this.isOn = true;
   }
 
   turnOff() {
-    return (this.isOn = false), (this.speed = 0);
+    this.isOn = false;
+    this.speed = 0;
   }
 
   accelerate(value) {
-    if (this.speed + value <= this.maxSpeed) return (this.speed += value);
+    if (this.speed + value <= this.maxSpeed) {
+      this.speed += value;
+    }
   }
 
   decelerate(value) {
-    if (this.speed - value >= 0) return (this.speed -= value);
+    if (this.speed - value >= 0) {
+      this.speed -= value;
+    }
   }
 
   drive(hours) {
-    if ((this.isOn = true)) this.distance = this.distance + hours * this.speed;
+    if (this.isOn) {
+      this.distance = this.distance + hours * this.speed;
+    }
   }
 }
 
