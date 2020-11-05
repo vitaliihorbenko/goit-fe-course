@@ -7,9 +7,10 @@ const ingredients = [
   "Приправы",
 ];
 const ingRef = document.querySelector("#ingredients");
-let ingList = ingredients.forEach((elem) => {
+let ingList = ingredients.map((elem) => {
   let newItem = document.createElement("li");
   newItem.textContent = elem;
   console.log(newItem);
-  ingRef.append(newItem);
+  return newItem;
 });
+ingRef.append(...ingList);

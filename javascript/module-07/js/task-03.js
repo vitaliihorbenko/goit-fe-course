@@ -26,4 +26,4 @@ const galleryList = images.map((elem) => {
   console.log(newItem);
 });
 
-galleryRef.insertAdjacentHTML("beforeend", galleryList.join(''));
+galleryRef.insertAdjacentHTML("beforeend", galleryList.join(""));
